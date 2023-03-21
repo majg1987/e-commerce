@@ -12,6 +12,10 @@ module.exports = {
             color4: '#f2ea8a',
             color5: '#f8ebed',
         },
+        fontFamily: {
+            titulo: ['Righteous, cursive'],
+
+        }
     },
     plugins: [],
 }
