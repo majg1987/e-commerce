@@ -1,7 +1,9 @@
 @tailwind base;
 @layer base {
     #root {
+        max-width: 100%;
         padding: 0px;
+        margin: 0;
     }
 }
 
