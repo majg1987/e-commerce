@@ -1,7 +1,11 @@
 import React from 'react'
+import { Portada } from '../components/home/Portada'
 
 export const Home = () => {
+  
   return (
-    <div>Home</div>
+    <div className=''>
+      <Portada/>
+    </div>
   )
 }
