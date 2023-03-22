@@ -5,21 +5,23 @@ import { Home } from './pages/home';
 import { NotFound } from './pages/notFound';
 import { NavBar } from './components/nav/NavBar';
 import { Footer } from './components/footer/Footer';
+import { AppProvider } from './store/AppProvider';
 
 function App() {
 
   return (
-    
-    <div className="App relative h-screen">  
-      <BrowserRouter>
-        <NavBar/>
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='*' element={<NotFound/>}/>
-        </Routes>
-        <Footer/>
-      </BrowserRouter>
-    </div>
+    <AppProvider>
+      <div className="App relative h-screen">  
+        <BrowserRouter>
+          <NavBar/>
+          <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path='*' element={<NotFound/>}/>
+          </Routes>
+          <Footer/>
+        </BrowserRouter>
+      </div>
+    </AppProvider>
   )
 }
 
