@@ -1,0 +1,36 @@
+.portada {
+    width: 100%;
+    background: linear-gradient(150deg, #20bcd8, #f8ebed);
+    background-size: 400% 400%;
+    animation: bgGradient 5s ease infinite;
+}
+
+@keyframes bgGradient {
+    0% {
+        background-position: 100% 100%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+.portada1 {
+    background: linear-gradient(150deg, #f8ebed, #20bcd8);
+    background-size: 400% 400%;
+    animation: bgGradient 5s ease infinite;
+}
+
+@keyframes bgGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
