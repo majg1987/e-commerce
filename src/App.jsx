@@ -6,6 +6,7 @@ import { NotFound } from './pages/notFound';
 import { NavBar } from './components/nav/NavBar';
 import { Footer } from './components/footer/Footer';
 import { AppProvider } from './store/AppProvider';
+import { Login } from './pages/login';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <NavBar/>
           <Routes>
             <Route path='/' element={<Home/>}/>
+            <Route path='/login' element={<Login/>}/>
             <Route path='*' element={<NotFound/>}/>
           </Routes>
           <Footer/>
