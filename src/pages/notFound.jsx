@@ -7,13 +7,10 @@ export const NotFound = () => {
   const navigate = useNavigate();
 
   return (
-    <div className='absolute
-                    h-screen
-                    w-screen
-                    top-16
+    <div className='h-screen
                     left-0
                     right-0
-                    flex flex-col   
+                    flex flex-col items-center  
                     pt-28
                   bg-color5 
                     uppercase'
