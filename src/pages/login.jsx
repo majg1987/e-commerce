@@ -1,7 +1,12 @@
 import React from 'react'
+import { FormLogin } from '../components/forms/FormLogin'
+import { Portada } from '../components/Portada'
 
-export const login = () => {
+export const Login = () => {
   return (
-    <div>login</div>
+    <div className='relative'>
+        <Portada/>
+        <FormLogin/>
+    </div>
   )
 }
