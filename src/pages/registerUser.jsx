@@ -1,7 +1,11 @@
 import React from 'react'
+import { Portada } from '../components/Portada'
 
 export const RegisterUser = () => {
   return (
-    <div>Register</div>
+    <div>
+        <Portada/>
+        
+    </div>
   )
 }
