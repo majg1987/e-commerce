@@ -7,6 +7,7 @@ import { NavBar } from './components/nav/NavBar';
 import { Footer } from './components/footer/Footer';
 import { AppProvider } from './store/AppProvider';
 import { Login } from './pages/login';
+import { RegisterUser } from './pages/registerUser';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/login' element={<Login/>}/>
+            <Route path='/registerUser' element={<RegisterUser/>} />
             <Route path='*' element={<NotFound/>}/>
           </Routes>
           <Footer/>
