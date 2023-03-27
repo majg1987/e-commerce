@@ -40,7 +40,7 @@ export const FormLogin = () => {
                 <p className='text-color2 text-base cursor-pointer font-semibold mb-4'
                     onClick={() => navigate('/registerUser') }    
                 >
-                    ¿Aún no tiene cuenta? Registrese
+                    ¿Aún no tiene cuenta? Regístrate
                 </p>
 
             </form>
