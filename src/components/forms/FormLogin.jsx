@@ -17,7 +17,7 @@ export const FormLogin = () => {
             <form onSubmit={handleSubmit}
                 className='m-4 flex flex-col items-center'    
             >
-                <h1 className='text-center text-color2 font-extrabold uppercase my-6'>Login</h1>
+                <h1 className='text-2xl text-color2 font-extrabold uppercase my-6'>Login</h1>
                 <input type="email" 
                     placeholder='Introduce tu Email'
                     className='text-color2 text-center p-2 rounded focus:outline-none w-96 mb-4 border-2 border-color2'
